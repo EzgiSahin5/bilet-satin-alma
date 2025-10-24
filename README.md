@@ -1,5 +1,8 @@
 # bilet-satin-alma
 kullanıcıların bilet satın alabildiği uygulama
+
+localhost:8080 portunda çalışıyor
+
 kullanıcıların giriş bilgileri ve rolleri:
 email            parola        role      
 ezgi5@gmail.com KüçükPrens333$ user
