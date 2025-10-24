@@ -1,0 +1,13 @@
+
+services:
+  web:
+    build: .
+    container_name: bilet-satin-alma
+    ports:
+      - "8080:80"
+    volumes:
+      - sqlite_data:/data
+
+volumes:
+  sqlite_data:
+    driver: local
