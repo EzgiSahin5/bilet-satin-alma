@@ -1,7 +1,13 @@
 # bilet-satin-alma
 kullanıcıların bilet satın alabildiği uygulama
 
-localhost:8080 portunda çalışıyor
+projenin olduğu dizine gelip terminalde:
+
+docker compose build
+docker compose up -d
+
+komutlarını girdikten sonra
+localhost:8080 portundan projeye erişebilirsiniz 
 
 kullanıcıların giriş bilgileri ve rolleri:
 email            parola        role      
